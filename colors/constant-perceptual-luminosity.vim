@@ -57,7 +57,7 @@ function! s:cterm_color(hex)
   elseif a:hex == s:cyan    | return "6"
   elseif a:hex == s:white   | return "7"
   elseif a:hex == s:bright_black   | return "8"
-  elseiff a:hex == s:grray         | return "8"
+  elseif a:hex == s:gray         | return "8"
   elseif a:hex == s:bright_red     | return "9"
   elseif a:hex == s:bright_green   | return "10"
   elseif a:hex == s:bright_yellow  | return "11"
