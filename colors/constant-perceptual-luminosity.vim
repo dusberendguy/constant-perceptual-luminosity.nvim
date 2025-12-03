@@ -214,22 +214,22 @@ call s:hi("BlinkCmpKind<kind>", s:bright_cyan, "", "")  " <kind> can be replaced
 call s:hi("BlinkCmpSource", s:bright_black, "", "")
 call s:hi("BlinkCmpGhostText", s:gray, "", "")
 call s:hi("BlinkCmpDoc", s:fg, s:bg, "")
-call s:hi("BlinkCmpDocBorder", s:magenta, s:black, "")
-call s:hi("BlinkCmpDocSeparator", s:bright_black, s:black, "")
+call s:hi("BlinkCmpDocBorder", s:magenta, s:bg, "")
+call s:hi("BlinkCmpDocSeparator", s:bright_black, s:bg, "")
 call s:hi("BlinkCmpDocCursorLine", "", s:gray, "")
 call s:hi("BlinkCmpSignatureHelp", s:fg, s:bg, "")
-call s:hi("BlinkCmpSignatureHelpBorder", s:magenta, s:black, "")
+call s:hi("BlinkCmpSignatureHelpBorder", s:magenta, s:bg, "")
 call s:hi("BlinkCmpSignatureHelpActiveParameter", s:bright_blue, "", "")
 
 " Float
-call s:hi("NormalFloat", s:fg, s:bg, "")  " Standard float text
-call s:hi("FloatBorder", s:magenta, s:black, "")  " Border for float windows
-call s:hi("FloatTitle", s:bright_blue, s:black, "bold")  " Title for float windows
-call s:hi("FloatFooter", s:bright_black, s:black, "")  " Footer for float windows (same as border but less emphasized)
+call s:hi("NormalFloat", s:magenta, s:bg, "")  " Standard float text
+call s:hi("FloatBorder", s:magenta, s:bg, "")  " Border for float windows
+call s:hi("FloatTitle", s:bright_blue, s:bg, "")  " Title for float windows
+call s:hi("FloatFooter", s:bright_black, s:bg, "")  " Footer for float windows (same as border but less emphasized)
 
 " CMP
-call s:hi("CmpDocBorder", s:magenta, s:black, "")  " Border for the completion documentation window
-call s:hi("CmpMenuBorder", s:magenta, s:black, "")  " Border for the completion menu window
+call s:hi("CmpDocBorder", s:magenta, s:bg, "")  " Border for the completion documentation window
+call s:hi("CmpMenuBorder", s:magenta, s:bg, "")  " Border for the completion menu window
 call s:hi("CmpMenuSel", s:bg, s:bright_yellow, "")  " Selected item in the completion menu
 
 " Terminal colors (for :terminal)
