@@ -221,7 +221,7 @@ call s:hi("BlinkCmpSignatureHelpBorder", s:magenta, s:bg, "")
 call s:hi("BlinkCmpSignatureHelpActiveParameter", s:bright_blue, "", "")
 
 " Float
-call s:hi("NormalFloat", s:magenta, s:bg, "") 
+call s:hi("NormalFloat", s:fg, s:bg, "") 
 call s:hi("FloatBorder", s:magenta, s:bg, "")  
 call s:hi("FloatTitle", s:bright_blue, s:bg, "bold")  
 call s:hi("FloatFooter", s:bright_black, s:bg, "")  
