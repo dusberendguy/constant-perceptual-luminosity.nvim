@@ -199,37 +199,37 @@ call s:hi("NERDTreeToggleOn", s:bright_green, "", "")
 call s:hi("NERDTreeToggleOff", s:bright_red, "", "")
 
 " BlinkCMP
-call s:hi("BlinkCmpMenu", s:fg, s:bright_black, "")
-call s:hi("BlinkCmpMenuBorder", s:bright_magenta, s:bright_black, "")
+call s:hi("BlinkCmpMenu", s:fg, s:black, "")
+call s:hi("BlinkCmpMenuBorder", s:bright_magenta, s:black, "")
 call s:hi("BlinkCmpMenuSelection", s:bg, s:bright_yellow, "")
-call s:hi("BlinkCmpScrollBarThumb", "", s:bright_black, "")
-call s:hi("BlinkCmpScrollBarGutter", "", s:bright_black, "")
+call s:hi("BlinkCmpScrollBarThumb", "", s:black, "")
+call s:hi("BlinkCmpScrollBarGutter", "", s:black, "")
 call s:hi("BlinkCmpLabel", s:fg, "", "")
 call s:hi("BlinkCmpLabelDeprecated", s:bright_red, "", "")
 call s:hi("BlinkCmpLabelMatch", s:fg, "", "")  " Unused, but matching pattern for consistency
-call s:hi("BlinkCmpLabelDetail", s:bright_black, "", "")
-call s:hi("BlinkCmpLabelDescription", s:bright_black, "", "")
+call s:hi("BlinkCmpLabelDetail", s:black, "", "")
+call s:hi("BlinkCmpLabelDescription", s:black, "", "")
 call s:hi("BlinkCmpKind", s:bright_cyan, "", "")
 call s:hi("BlinkCmpKind<kind>", s:bright_cyan, "", "")  " <kind> can be replaced with specific completion kind (e.g., function, variable)
 call s:hi("BlinkCmpSource", s:bright_black, "", "")
 call s:hi("BlinkCmpGhostText", s:gray, "", "")
 call s:hi("BlinkCmpDoc", s:fg, s:bg, "")
-call s:hi("BlinkCmpDocBorder", s:bright_magenta, s:bright_black, "")
+call s:hi("BlinkCmpDocBorder", s:bright_magenta, s:black, "")
 call s:hi("BlinkCmpDocSeparator", s:bright_black, s:black, "")
 call s:hi("BlinkCmpDocCursorLine", "", s:gray, "")
 call s:hi("BlinkCmpSignatureHelp", s:fg, s:bg, "")
-call s:hi("BlinkCmpSignatureHelpBorder", s:bright_magenta, s:bright_black, "")
+call s:hi("BlinkCmpSignatureHelpBorder", s:bright_magenta, s:black, "")
 call s:hi("BlinkCmpSignatureHelpActiveParameter", s:bright_blue, "", "")
 
 " Float
 call s:hi("NormalFloat", s:fg, s:bg, "")  " Standard float text
-call s:hi("FloatBorder", s:bright_magenta, s:bright_black, "")  " Border for float windows
+call s:hi("FloatBorder", s:bright_magenta, s:black, "")  " Border for float windows
 call s:hi("FloatTitle", s:bright_blue, s:black, "bold")  " Title for float windows
 call s:hi("FloatFooter", s:bright_black, s:black, "")  " Footer for float windows (same as border but less emphasized)
 
 " CMP
-call s:hi("CmpDocBorder", s:bright_magenta, s:bright_black, "")  " Border for the completion documentation window
-call s:hi("CmpMenuBorder", s:bright_magenta, s:bright_black, "")  " Border for the completion menu window
+call s:hi("CmpDocBorder", s:bright_magenta, s:black, "")  " Border for the completion documentation window
+call s:hi("CmpMenuBorder", s:bright_magenta, s:black, "")  " Border for the completion menu window
 call s:hi("CmpMenuSel", s:bg, s:bright_yellow, "")  " Selected item in the completion menu
 
 " Terminal colors (for :terminal)
