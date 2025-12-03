@@ -221,6 +221,17 @@ call s:hi("BlinkCmpSignatureHelp", s:fg, s:bg, "")
 call s:hi("BlinkCmpSignatureHelpBorder", s:bright_magenta, s:bright_black, "")
 call s:hi("BlinkCmpSignatureHelpActiveParameter", s:bright_blue, "", "")
 
+" Float
+call s:hi("NormalFloat", s:fg, s:bg, "")  " Standard float text
+call s:hi("FloatBorder", s:bright_magenta, s:bright_black, "")  " Border for float windows
+call s:hi("FloatTitle", s:bright_blue, s:black, "bold")  " Title for float windows
+call s:hi("FloatFooter", s:bright_black, s:black, "")  " Footer for float windows (same as border but less emphasized)
+
+" CMP
+call s:hi("CmpDocBorder", s:bright_magenta, s:bright_black, "")  " Border for the completion documentation window
+call s:hi("CmpMenuBorder", s:bright_magenta, s:bright_black, "")  " Border for the completion menu window
+call s:hi("CmpMenuSel", s:bg, s:bright_yellow, "")  " Selected item in the completion menu
+
 " Terminal colors (for :terminal)
 if has('nvim')
   let g:terminal_color_0  = s:black
