@@ -210,7 +210,6 @@ call s:hi("BlinkCmpLabelMatch", s:fg, "", "")  " Unused, but matching pattern fo
 call s:hi("BlinkCmpLabelDetail", s:black, "", "")
 call s:hi("BlinkCmpLabelDescription", s:black, "", "")
 call s:hi("BlinkCmpKind", s:bright_cyan, "", "")
-call s:hi("BlinkCmpKind<kind>", s:bright_cyan, "", "")  " <kind> can be replaced with specific completion kind (e.g., function, variable)
 call s:hi("BlinkCmpSource", s:bright_black, "", "")
 call s:hi("BlinkCmpGhostText", s:gray, "", "")
 call s:hi("BlinkCmpDoc", s:fg, s:bg, "")
