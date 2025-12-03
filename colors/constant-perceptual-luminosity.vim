@@ -222,15 +222,15 @@ call s:hi("BlinkCmpSignatureHelpBorder", s:magenta, s:bg, "")
 call s:hi("BlinkCmpSignatureHelpActiveParameter", s:bright_blue, "", "")
 
 " Float
-call s:hi("NormalFloat", s:magenta, s:bg, "")  " Standard float text
-call s:hi("FloatBorder", s:magenta, s:bg, "")  " Border for float windows
-call s:hi("FloatTitle", s:bright_blue, s:bg, "")  " Title for float windows
-call s:hi("FloatFooter", s:bright_black, s:bg, "")  " Footer for float windows (same as border but less emphasized)
+call s:hi("NormalFloat", s:magenta, s:bg, "") 
+call s:hi("FloatBorder", s:magenta, s:bg, "")  
+call s:hi("FloatTitle", s:bright_blue, s:bg, "bold")  
+call s:hi("FloatFooter", s:bright_black, s:bg, "")  
 
 " CMP
-call s:hi("CmpDocBorder", s:magenta, s:bg, "")  " Border for the completion documentation window
-call s:hi("CmpMenuBorder", s:magenta, s:bg, "")  " Border for the completion menu window
-call s:hi("CmpMenuSel", s:bg, s:bright_yellow, "")  " Selected item in the completion menu
+call s:hi("CmpDocBorder", s:magenta, s:bg, "")
+call s:hi("CmpMenuBorder", s:magenta, s:bg, "")
+call s:hi("CmpMenuSel", s:bg, s:bright_yellow, "")
 
 " Terminal colors (for :terminal)
 if has('nvim')
